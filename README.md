@@ -13,3 +13,11 @@ Implemented color balancing algorithms:
 - **Scale-by-max**
   ![Scale-by-max example](lesson-2/homework/results/scale-by-max.png)
   > This image is not suitable for this algorithm because only the blue channel changes slightly, and the overall appearance of the image remains almost the same.
+
+## Lesson 3
+
+[Jupyther notebook](lesson-3/homework/Homework.ipynb)
+
+Implemented unsharp masking with gaussian blur:
+
+![Unsharp masking](lesson-3/homework/results/unsharp-masking.png)
