@@ -20,4 +20,4 @@ Implemented color balancing algorithms:
 
 Implemented unsharp masking with gaussian blur:
 
-![Unsharp masking](lesson-3/homework/results/unsharp-masking.png)
+![Unsharp masking](lesson-3/homework/results/unsharp-masking-by-gauss.png)
