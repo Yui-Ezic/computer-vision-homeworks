@@ -21,3 +21,11 @@ Implemented color balancing algorithms:
 Implemented unsharp masking with gaussian blur:
 
 ![Unsharp masking](lesson-3/homework/results/unsharp-masking-by-gauss.png)
+
+## Lesson 4
+
+[Jupyther notebook](lesson-4/homework/Homework.ipynb)
+
+Detect lane lines:
+
+![Detected lane lines](lesson-4/homework/results/detected-lane-lines.png)
