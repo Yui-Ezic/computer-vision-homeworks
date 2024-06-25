@@ -29,3 +29,31 @@ Implemented unsharp masking with gaussian blur:
 Detect lane lines:
 
 ![Detected lane lines](lesson-4/homework/results/detected-lane-lines.png)
+
+## Lesson 5
+
+[Jupyther notebook](lesson-5/homework/Homework.ipynb)
+
+Image quantization with different color paliters:
+
+Left image is optimally quantized, right is with Floyd-Steinberg Dithering
+
+- **2 gray tone colors**
+
+![4 colors](lesson-5/homework/results/2-colors.png)
+
+- **4 gray tone colors**
+
+![4 colors](lesson-5/homework/results/4-colors.png)
+
+- **16 gray tone colors**
+
+![4 colors](lesson-5/homework/results/16-colors.png)
+
+- **256 gray tone colors**
+
+![4 colors](lesson-5/homework/results/256-colors.png)
+
+- **5 pure colors** (black, white, red, green, blue)
+
+![4 colors](lesson-5/homework/results/5-colored-colors.png)
