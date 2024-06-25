@@ -36,6 +36,10 @@ Detect lane lines:
 
 Image quantization with different color paliters:
 
+Original image:
+
+![Original image](lesson-5/data/kodim23.png)
+
 Left image is optimally quantized, right is with Floyd-Steinberg Dithering
 
 - **2 gray tone colors**
