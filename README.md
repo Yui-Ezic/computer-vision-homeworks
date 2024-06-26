@@ -60,4 +60,9 @@ Left image is optimally quantized, right is with Floyd-Steinberg Dithering
 
 - **5 pure colors** (black, white, red, green, blue)
 
-![4 colors](lesson-5/homework/results/5-colored-colors.png)
+![5 pure colors](lesson-5/homework/results/5-colored-colors.png)
+
+If you enlarge the image, you can see that there are actually 5 colors (left - original, right - quantized).
+
+![5 pure colors](lesson-5/homework/results/5-colors-scale-1.png)
+![5 pure colors](lesson-5/homework/results/5-colors-scale-2.png)
