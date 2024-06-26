@@ -66,3 +66,17 @@ If you enlarge the image, you can see that there are actually 5 colors (left - o
 
 ![5 pure colors](lesson-5/homework/results/5-colors-scale-1.png)
 ![5 pure colors](lesson-5/homework/results/5-colors-scale-2.png)
+
+## Lesson 6
+
+[Jupyther notebook](lesson-6/homework/Homework.ipynb)
+
+Using the Harris corner detector to detect the corners of a document.
+
+Original image:
+
+![Original document](lesson-6/data/document.jpg)
+
+At first find all corners, than filter it to keep only document corners.
+
+![Detected corners of document](lesson-6/homework/results/detected-document-corners.png)
