@@ -80,3 +80,11 @@ Original image:
 At first find all corners, than filter it to keep only document corners.
 
 ![Detected corners of document](lesson-6/homework/results/detected-document-corners.png)
+
+## Lesson 7
+
+[Jupyther notebook](lesson-7/homework/Homework.ipynb)
+
+Use perspective transform to rectify document image:
+
+![Rectified document](lesson-7/homework/results/rectified.png)
