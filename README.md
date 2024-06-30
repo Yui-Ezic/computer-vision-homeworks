@@ -93,8 +93,17 @@ Use perspective transform to rectify document image:
 
 [Jupyther notebook](lesson-8/homework/Homework.ipynb)
 
-Otsu’s Thresholding to separate document text from background:
+**Otsu’s Thresholding** to separate document text from background:
 
 ![Binarized document](lesson-8/homework/results/otsu-thresholded.png)
 
-The result is not very good, because this image is not suitable for binarization. There is more than two clusters of pixels. One of the reasons is uneven lightning of the image. So instead of Otsu’s Thresholding we should use more advanced methods, like [Niblack and Sauvola Thresholding](https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_niblack_sauvola.html) which calculate threshold for each pixel instead of one global threshold, or K-means with 3 or 4 clusters.
+The result is not very good, because this image is not suitable for Otsu’s Thresholding. There is more than two clusters of pixels. One of the reasons is uneven lightning of the image.
+
+So instead of Otsu’s Thresholding we should use more advanced methods, like [Sauvola Thresholding](https://wahabaftab.com/Sauvola-Thresholding-Integral-Images/) which calculate threshold for each pixel instead of one global threshold, or K-means.
+
+**Sauvola Thresholding**
+
+![Sauvola 5](lesson-8/homework/results/sauvola-5.png)
+![Sauvola 15](lesson-8/homework/results/sauvola-15.png)
+
+Sauvola threshold with k=0.2 and n=15 still not perfect, but better than Otsu’s Thresholding. And I think that if you experiment, you can choose more optimal coefficients to get better results with Sauvola Thresholding.
