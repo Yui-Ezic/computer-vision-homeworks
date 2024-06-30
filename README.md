@@ -88,3 +88,13 @@ At first find all corners, than filter it to keep only document corners.
 Use perspective transform to rectify document image:
 
 ![Rectified document](lesson-7/homework/results/rectified.png)
+
+## Lesson 8
+
+[Jupyther notebook](lesson-8/homework/Homework.ipynb)
+
+Otsu’s Thresholding to separate document text from background:
+
+![Binarized document](lesson-8/homework/results/otsu-thresholded.png)
+
+The result is not very good, because this image is not suitable for binarization. There is more than two clusters of pixels. One of the reasons is uneven lightning of the image. So instead of Otsu’s Thresholding we should use more advanced methods, like [Niblack and Sauvola Thresholding](https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_niblack_sauvola.html) which calculate threshold for each pixel instead of one global threshold, or K-means with 3 or 4 clusters.
